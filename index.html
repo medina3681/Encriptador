@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF8"> 
+        <title>Encriptador / Desencriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+            
+            <div class="encabezado">
+                <img src="/img/logo.png" alt="Logo Encriptador" class="logoEnc">
+                <h1>Encriptador</h1>
+            </div>
+
+        </header>
+
+        <main>
+            <div class="principal">
+                <div class="botones">
+                    <input type="submit" onclick="encriptaTexto();" value="Encriptar" class="boton">
+                    <input type="submit" onclick="desEncriptaTexto();" value="Desencriptar" class="boton">
+                    <input type="submit" onclick="copiarC();" value="Copiar" class="boton">
+                </div>
+
+                <textarea id="valorUsuario" cols="70" rows="10" placeholder="Escriba texo aqui" class="textoEnc" ></textarea>
+            </div>
+
+        </main>
+            
+        <footer>
+            <img src="img/contrasena.png" alt="Logo desencriptar">
+            <p class="copyright">Tobias Beecher</p>
+        </footer>
+
+        <script src="app-2.js"></script>
+    </body>
+</html>
